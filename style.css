@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00ff00;
+}
+
+.sadrzaj {
+    margin: 20px;
+    text-align: center;
+}
+
+.destinacije {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.destinacija {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.destinacija:hover {
+    border: 2px solid #00ff00;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px auto;
+}
+
+form label, form input, form textarea, form button {
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    padding: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00ff00;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #00ff00;
+    outline: none;
+}
